@@ -1,0 +1,114 @@
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/50e2bd389c.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <style>
+        #body {
+            background-color: rgb(230, 236, 245);
+        }
+        #Signup {
+            padding: 25px;
+            margin-top: 0px;
+            margin-bottom: 25px;
+            background-color: rgb(78, 78, 78);
+            list-style-type: none;
+            text-align: center;
+           
+        }
+        #form {
+            font-size: 16px;
+            text-align: left;
+            Padding: 20px;
+            line-height: 40px;
+            width: 400px;
+            background-color: rgb(241, 241, 241);
+            margin-left: auto;
+            margin-right: auto;
+        }
+         #topbar {
+            padding: 10px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            background-color: rgb(194, 196, 197);
+            list-style-type: none;
+            text-align: center;
+    }
+    #footer {
+                background-color: rgb(73, 73, 73);
+                padding: 24px;
+                text-align: center;
+            }
+    #input {
+        width: 100%;
+    }
+    #buttonstyle {
+        background-color: grey;
+        padding: 8px 16px;
+        border: none;
+        border-radius: 8px;
+        outline: none;
+        cursor:pointer;
+    }
+    #buttonstyle:hover {
+        background-color: black;
+        color: white;
+    }
+    </style>
+</head>
+<body id="body">
+    <h1 id="Signup" style="color:white;" >Tell me what you think</h1>
+    <form id="form">
+        Name: 
+        <input id="input" type="text" name="fullName" autofocus required>
+        <br>
+        E-mail:
+        <input id="input" type="email" name="email" >
+        <br>
+        Which did you like the most?<br>
+        <select id="input" >
+            <option>
+                Jollof Rice
+            </option>
+            <option>
+                Fried Plantains
+            </option>
+            <option>
+                Ginger Drink
+            </option>
+            <option>
+                All of them!
+            </option>
+            <option>
+                None of them.
+            </option>
+        </select>
+            <p  style="font-size: 15px;" >
+            <input type="checkbox" name="terms" required> I have read and agree to <a style="color:black;" href=about.html target="blank">all terms and policies</a>
+            <br>
+            <button id="buttonstyle">
+                 Submit
+            </button>
+            </p>
+    </form>
+    <ul id="topbar">
+        <a style="color:black;" href="/home.html">Home</a>
+        <a style="color:black;" href="/contact.html">Contact</a>
+        </ul>
+    <div style="text-align: center; padding: 10px;">
+        <button style="color: blue; background-color: whitesmoke; text-align: center; border: 2px solid blue; border-radius:6px;"><i class="fab fa-facebook"></i>
+            <span ><a style="text-decoration: none;"href="https://en-gb.facebook.com/login/" target="blank">Facebook</a></span>
+        </button><br>
+        <br><button
+            style="color: rgb(224, 66, 18); background-color: whitesmoke; text-align: center; border: 2px solid rgb(226, 62, 21); border-radius:6px;"><i class="fab fa-instagram"></i>
+            <span><a style="text-decoration: none;color: rgb(221, 87, 9);" href="https://www.instagram.com/accounts/login/?hl=en" target="blank">Instagram</a></span>
+        </button>
+    </div>
+    <footer id="footer">
+            <p style="color:white;">Copyright @ Julian Achemdey 2020.</p>
+    </footer>
+
+</body>
+</html>
